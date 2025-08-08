@@ -49,7 +49,7 @@ This command will create a local Docker image named dk_av1 based on the configur
 
 Once the image is built, you can run dk_av1 using the command below:
 
-<pre>docker run -it --rm --name dk_av1 --net=host --device=/dev/snd dk_av1</pre>
+    <pre>docker run -it --rm --name dk_av1 --net=host --device=/dev/snd dk_av1</pre>
 
 Explanation of flags:
 
