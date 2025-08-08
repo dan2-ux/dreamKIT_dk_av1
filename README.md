@@ -42,14 +42,14 @@ Open the define.json file located in the root directory of this repository. Upda
 
 To containerize dk_av1, use the following command to build the Docker image:
 
-docker build -t dk_av1 .
+<pre>docker build -t dk_av1 .</pre>
 
 This command will create a local Docker image named dk_av1 based on the configuration and code provided in this repository.
 4. Run the Docker Container
 
 Once the image is built, you can run dk_av1 using the command below:
 
-docker run -it --rm --name dk_av1 --net=host --device=/dev/snd dk_av1
+<pre>docker run -it --rm --name dk_av1 --net=host --device=/dev/snd dk_av1</pre>
 
 Explanation of flags:
 
